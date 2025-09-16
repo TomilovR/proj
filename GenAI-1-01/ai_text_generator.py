@@ -11,6 +11,7 @@ def run_model(model_id: str, prompt: str, **gen_kwargs) -> None:
     device_idx = 0 if torch.cuda.is_available() else -1
     # Загружаем модель и токенизатор
     generator = pipeline("text-generation", model=model_id, device=device_idx)
+    # Фиксируем сид для воспроизводимости
     set_seed(42)
 
     # Значения по умолчанию, можно переопределить в gen_kwargs
