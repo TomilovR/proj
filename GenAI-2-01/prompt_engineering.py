@@ -17,9 +17,9 @@ if __name__ == "__main__":
         no_repeat_ngram_size=2,
     )
     # Вывод результатов
-    print("=== Базовый вариант ===")
+    print("Базовый вариант")
     print(base["generated_text"])
     print(f"\nСлов всего: {base['total_words']} | Новых (без промпта): {base['new_words']}")
-    print("\n=== Промпт-инжиниринг ===")
+    print("\nПромпт-инжиниринг")
     print(engineered["generated_text"])
     print(f"\nСлов всего: {engineered['total_words']} | Новых (без промпта): {engineered['new_words']}"
