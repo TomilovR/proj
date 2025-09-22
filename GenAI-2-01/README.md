@@ -5,7 +5,7 @@
 ## Зависимости
 
 - Python 3.8+
-- Внешний модуль [`ai_text_generator`]([https://github.com/username/ai_text_generator](https://github.com/TomilovR/proj/tree/main/GenAI-1-01))
+- Внешний модуль [`ai_text_generator`](https://github.com/TomilovR/proj/tree/main/GenAI-1-01)
 
 ## Использование
 
